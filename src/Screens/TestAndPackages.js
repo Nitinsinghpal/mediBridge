@@ -5,17 +5,18 @@ import Conditions from './Conditions'
 import Alphabet from './Alphabet'
 
 function TestAndPackages() {
+    function handleChange(params) {
+        alert(params)
+    }
   return (
     <>
    
     <h1>TestAndPackages</h1>
     <div>
-        <Routes>
-        <Route path="/lifestyle" element={<Lifestyle/>}/>
-<Route path="/condition" element={<Conditions/>}/>
-<Route path="/alphabet" element={<Alphabet/>}/>
-        </Routes>
-   
+    
+    <button onClick={handleChange}>lifestyle Disorder</button>
+        <hr/>
+        
         {/* <Link to='/lifestyle'>lifestyle Disorder</Link>
         <hr/>
         <Link to='/condition'>Condition</Link>
