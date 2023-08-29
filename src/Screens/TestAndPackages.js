@@ -9,6 +9,8 @@ function TestAndPackages() {
   const[showConditions,setshowConditions] = useState(false)
   const[showAlphabet,setshowAlphabet] = useState(false)
 
+ 
+
     function handleChange(e) {
       if (e.target.name === "lifestyle") {
         setshowLifestyle(true)

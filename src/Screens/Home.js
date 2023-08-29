@@ -4,6 +4,8 @@ import Crousels from "./Crousels";
 import TestAndPackages from "./TestAndPackages";
 import "./Home.css";
 import SpecializedHealthPackages from "./SpecializedHealthPackages";
+import About from "./About";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -16,6 +18,10 @@ function Home() {
       <div>
         <SpecializedHealthPackages/>
       </div>
+      <div>
+        <About/>
+      </div>
+      <div><Footer/></div>
     </div>
   );
 }
