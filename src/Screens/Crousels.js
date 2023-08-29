@@ -1,4 +1,5 @@
 import React from "react";
+import micro from "../Images/Doctor With MicroScope.jpg"
 import './Crousels.css'
 function Crousels() {
   return (
@@ -33,8 +34,8 @@ function Crousels() {
         <div class="carousel-item active">
           <div className="col-3">
             <img
-              src="https://media.istockphoto.com/id/1098268118/photo/doctor-looking-through-a-microscope.jpg?s=170667a&w=0&k=20&c=brNy0eREN8caIAtqoyB_xTSdeNBZ_USGAykHkG49bc8="
-              class="d-block w-100"
+              src={micro}
+              class="polygon"
               alt="..."
             />
           </div>
@@ -46,8 +47,8 @@ function Crousels() {
         <div class="carousel-item">
         <div className="col-3">
             <img
-              src="https://media.istockphoto.com/id/1098268118/photo/doctor-looking-through-a-microscope.jpg?s=170667a&w=0&k=20&c=brNy0eREN8caIAtqoyB_xTSdeNBZ_USGAykHkG49bc8="
-              class="d-block w-100"
+              src={micro}
+              class="polygon"
               alt="..."
             />
           </div>
@@ -59,8 +60,8 @@ function Crousels() {
         <div class="carousel-item">
         <div className="col-3">
             <img
-              src="https://media.istockphoto.com/id/1098268118/photo/doctor-looking-through-a-microscope.jpg?s=170667a&w=0&k=20&c=brNy0eREN8caIAtqoyB_xTSdeNBZ_USGAykHkG49bc8="
-              class="d-block w-100"
+              src={micro}
+              class="polygon"
               alt="..."
             />
           </div>
