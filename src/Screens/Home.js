@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Crousels from "./Crousels";
 import TestAndPackages from "./TestAndPackages";
 import "./Home.css";
+import About from './About.js'
 import SpecializedHealthPackages from "./SpecializedHealthPackages";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <div>
         <SpecializedHealthPackages/>
       </div>
+      <About/>
     </div>
   );
 }
