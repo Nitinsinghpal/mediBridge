@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "./NavBar";
 import Crousels from "./Crousels";
 import TestAndPackages from "./TestAndPackages";
 import "./Home.css";
+import About from './About.js'
 import SpecializedHealthPackages from "./SpecializedHealthPackages";
 import About from "./About";
 import Footer from "./Footer";

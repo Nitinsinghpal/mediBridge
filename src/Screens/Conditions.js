@@ -1,15 +1,47 @@
-import React from 'react'
+import React from "react";
+import Liv from '../Images/liver.png'
+import Lungs from '../Images/lungs.png'
+import Kidney from '../Images/Kidney.png'
+import CBC from '../Images/CBC.png'
+import Thyroid from '../Images/Thyroid.png'
+import Fertility from '../Images/firtility.png'
+import './TestAndPackages.css'
 
 function Conditions() {
   return (
-    <div className='d-flex flex-row bd-highlight mb-3'>
-      <div className='p-2 bd-highlight'>Conditions</div>
-      <div className='p-2 bd-highlight'>Conditions1</div>
-      <div className='p-2 bd-highlight'>Conditions2</div>
-      <div className='p-2 bd-highlight'>Conditions3</div>
-
+    <div className='d-flex justify-content-center'>
+      <div className='imgFix'>
+        <span>
+          <img src={Liv} alt="Liver" title="Liver"/>
+        </span>
+      </div>
+      <div className='imgFix'>
+        <span>
+          <img src={Kidney} alt="Kidney" title="Kidney"/>
+        </span>
+      </div>
+      <div className='imgFix'>
+        <span>
+          <img src={Lungs} alt="Lungs" title="Lungs"/>
+        </span>
+      </div>
+      <div className='imgFix'>
+        <span>
+          <img src={Thyroid} alt="Thyroid" title="Thyroid"/>
+        </span>
+      </div>
+      <div className='imgFix'>
+        <span>
+          <img src={CBC} alt="CBC" title="CBC"/>
+        </span>
+      </div>
+      <div className='imgFix'>
+        <span>
+          <img src={Fertility} alt="Fertility" title="Fertility"/>
+        </span>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Conditions
+export default Conditions;
