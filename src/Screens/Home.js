@@ -1,9 +1,8 @@
 import React from "react";
 import Crousels from "./Crousels";
-import TestAndPackages from "./TestAndPackages";
+import TestAndPackages from "../Screens/TestAndPackages";
 import "./Home.css";
-import About from './About.js'
-import SpecializedHealthPackages from "./SpecializedHealthPackages";
+import SpecializedHealthPackages from "../Screens/SpecializedHealthPackages";
 
 function Home() {
   return (
