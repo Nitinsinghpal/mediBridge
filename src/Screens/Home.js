@@ -1,11 +1,9 @@
 import React from "react";
 import Crousels from "./Crousels";
-import TestAndPackages from "./TestAndPackages";
+import TestAndPackages from "../Screens/TestAndPackages";
 import "./Home.css";
-import About from './About.js'
-import SpecializedHealthPackages from "./SpecializedHealthPackages";
-import Footer from "./Footer";
-import NavBar from "./NavBar";
+import SpecializedHealthPackages from "../Screens/SpecializedHealthPackages";
+import About from './About'
 
 function Home() {
   const containerStyles = {
@@ -26,7 +24,6 @@ function Home() {
 
         <About/>
 
-<Footer/>
     </div>
   );
 }

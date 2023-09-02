@@ -5,6 +5,7 @@ import About from "./Screens/About";
 import Lifestyle from "./Screens/Lifestyle";
 import Conditions from "./Screens/Conditions";
 import Alphabet from "./Screens/Alphabet";
+import Footer from "./Screens/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/condition" element={<Conditions />} />
         <Route path="/alphabet" element={<Alphabet />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

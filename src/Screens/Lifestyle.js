@@ -5,7 +5,7 @@ import Kidney from '../Images/Kidney.png'
 import CBC from '../Images/CBC.png'
 import Thyroid from '../Images/Thyroid.png'
 import Fertility from '../Images/firtility.png'
-import './TestAndPackages.css'
+import '../Screens/TestAndPackages.css'
 
 function Lifestyle() {
   return (
