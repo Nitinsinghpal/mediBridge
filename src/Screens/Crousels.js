@@ -11,11 +11,11 @@ function Crousels() {
       <div class="carousel-inner margin">
         <div class="carousel-item active">
           <div className="col-3">
-            <img
+            {/* <img
               src={micro}
               class="polygon"
               alt="..."
-            />
+            /> */}
           </div>
           <div class="carousel-caption d-none d-md-block col-9">
             <h5 className="textColor">First slide label</h5>
@@ -24,11 +24,11 @@ function Crousels() {
         </div>
         <div class="carousel-item">
         <div className="col-3">
-            <img
+            {/* <img
               src={micro}
               class="polygon"
               alt="..."
-            />
+            /> */}
           </div>
           <div class="carousel-caption d-none d-md-block col-9">
             <h5 className="textColor">Second slide label</h5>
@@ -37,11 +37,11 @@ function Crousels() {
         </div>
         <div class="carousel-item">
         <div className="col-3">
-            <img
+            {/* <img
               src={micro}
               class="polygon"
               alt="..."
-            />
+            /> */}
           </div>
           <div class="carousel-caption d-none d-md-block col-9">
             <h5 className="textColor">Third slide label</h5>
