@@ -4,8 +4,8 @@ import TestAndPackages from "./TestAndPackages";
 import "./Home.css";
 import About from './About.js'
 import SpecializedHealthPackages from "./SpecializedHealthPackages";
-import About from "./About";
 import Footer from "./Footer";
+import NavBar from "./NavBar";
 
 function Home() {
   const containerStyles = {
@@ -15,7 +15,6 @@ function Home() {
   };
   return (
     <div>
-      <NavBar />
       <div style={containerStyles}>
 
       <Crousels />
