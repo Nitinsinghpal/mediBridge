@@ -9,7 +9,7 @@ import '../Screens/TestAndPackages.css'
 
 function Lifestyle() {
   return (
-    <div className='d-flex justify-content-center'>
+    <div className='adjust'>
       <div className='imgFix'>
         <span>
           <img src={Liv} alt="Liver" title="Liver"/>

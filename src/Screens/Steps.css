@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+    margin: 150px auto;
+    width: 90%;
+    overflow: hidden; /* To ensure proper wrapping */
+}
+
+.wrap h1 {
+    font-family: ui-monospace;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 5%;
+}
+
+.wrap h2 {
+    font-family: ui-monospace;
+    font-size: 30px;
+}
+
+.wrap img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+.backg{
+    background: rgb(235, 235, 235);
+}
+.logo{
+    margin: 0% 4% 4% 14%;
+    width: 30%;
+}
+.ltext{
+    width: 34%;
+    margin: 6% 0% 0% 10%;
+}
+.stepImg {
+    width: 20%;
+}
+
+.adjustpara {
+    margin-left: 14%;
+    margin-right: 8%;
+    width: 30%;
+}
+
+.adjParaTwo {
+    width: 30%;
+    margin-left: 18%;
+}
+
+.imgFX {
+    margin: auto;
+}
+
+.para p {
+    font-size: 16px;
+}
+
+/* Media Query for Tablets (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrap {
+        margin: 50px auto;
+    }
+
+    .wrap h1 {
+        font-size: 28px;
+    }
+
+    .wrap h2 {
+        font-size: 26px;
+    }
+
+    .adjustpara,
+    .adjParaTwo {
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 40%;
+    }
+}
+
+/* Media Query for Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    .wrap {
+        margin: 30px auto;
+    }
+
+    .wrap h1 {
+        font-size: 24px;
+    }
+
+    .wrap h2 {
+        font-size: 22px;
+    }
+
+    .adjustpara,
+    .adjParaTwo {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .stepImg {
+        width: 40%;
+    }
+}

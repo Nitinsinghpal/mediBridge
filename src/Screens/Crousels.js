@@ -1,11 +1,11 @@
 import { useState } from "react";
-import './Crousels.css'
+import "./Crousels.css";
+import Assured from '../Images/100%Assured_upscaled.png'
 
 //#region Style
 const slideStyles = {
-  width: "50%",
-  height: "50%",
-  borderRadius: "10px",
+  width: "16%",
+  height: "100%",
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
@@ -22,17 +22,15 @@ const dotStyle = {
 
 //#endregion
 
-
 const Crousels = () => {
-  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
-    { url: "http://localhost:3000/image-1.jpg", title: "beach" },
+    { url: "http://localhost:3000/Doctor-With-MicroScope.jpg", title: "beach" },
     { url: "http://localhost:3000/image-2.jpg", title: "boat" },
-    { url: "http://localhost:3000/image-3.jpg", title: "forest" },
+    { url: "http://localhost:3000/Doctor-With-MicroScope.jpg", title: "forest" },
     { url: "http://localhost:3000/image-4.jpg", title: "city" },
-    { url: "http://localhost:3000/image-5.jpg", title: "italy" },
+    { url: "http://localhost:3000/Doctor-With-MicroScope.jpg", title: "italy" },
   ];
 
   const goToPrevious = () => {
@@ -46,27 +44,35 @@ const Crousels = () => {
     setCurrentIndex(newIndex);
   };
   const goToSlide = (slideIndex) => {
-    debugger
+    debugger;
     setCurrentIndex(slideIndex);
   };
   const slideStylesWidthBackground = {
     ...slideStyles,
     backgroundImage: `url(${slides[currentIndex].url})`,
-    margin: "37px 0px 0px 75px",
+    margin: "37px 0px 0px 160px",
   };
 
   return (
-    <div style={sliderStyles}>
+    <div className="container col-6" style={sliderStyles}>
       <div>
-         <div onClick={goToPrevious} className="leftArrowStyles">
+        <div onClick={goToPrevious} className="leftArrowStyles">
           ❰
         </div>
         <div onClick={goToNext} className="rightArrowStyles">
           ❱
         </div>
       </div>
-      <div style={slideStylesWidthBackground}></div>
+      <div className="row">
+      <div className="polygon col-6" style={slideStylesWidthBackground}>
+      <span><img /></span>
+      </div>
+      <div className="col-6 fText">
+<span><img src={Assured}/></span>
       <div className="">Hello how are you</div>
+      </div>
+      </div>
+      
 
       <div className="dotsContainerStyles">
         {slides.map((slide, slideIndex) => (
@@ -84,19 +90,6 @@ const Crousels = () => {
 };
 
 export default Crousels;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React from "react";
 // import micro from "../Images/Doctor With MicroScope.jpg"

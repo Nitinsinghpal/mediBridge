@@ -1,6 +1,6 @@
-.rightArrowStyles{
-    position: absolute;
-    top: 50%;
+.rightArrowStyles {
+  position: absolute;
+  top: 50%;
   transform: translate(0, -50%);
   right: 32px;
   font-size: 45px;
@@ -8,9 +8,10 @@
   z-index: 1;
   cursor: pointer;
 }
-.leftArrowStyles{
-    position: absolute;
-    top: 50%;
+
+.leftArrowStyles {
+  position: absolute;
+  top: 50%;
   transform: translate(0, -50%);
   left: 32px;
   font-size: 45px;
@@ -18,12 +19,21 @@
   z-index: 1;
   cursor: pointer;
 }
-.dotsContainerStyles{
-    display: flex;
-    justify-content: center;
-    }
 
+.dotsContainerStyles {
+  display: flex;
+  justify-content: center;
+}
 
+.polygon {
+  clip-path: polygon(0 7%, 100% 0, 100% 94%, 0% 100%);
+  /* margin-left: 94px; */
+  margin: "37px 0px 0px 160px"
+}
+
+.fText{
+  margin:34px 110px;
+}
 
 /* .textColor{
     color: black;

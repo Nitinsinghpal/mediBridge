@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Card from "./Card";
+import './SpecializedHealthPackages.css'
 
 function SpecializedHealthPackages() {
   const [swastBihar, setSwastBihar] = useState(true);
@@ -62,42 +63,44 @@ function SpecializedHealthPackages() {
   }
   return (
     <div className="container col-12">
+        <h3 className="SHPHeding">Specialized<br/> Health Packages</h3>
       <div className="row">
-        <h3>Specialized Health Packages</h3>
-        <div className="d-flex flex-column bd-highlight col-6">
+        <div className="ulOptions col-6">
           <button
-            className="p-2 bd-highlight"
+            className=""
             name="swastBihar"
             onClick={handleChange}
           >
             swasth Bihar Packages
           </button>
           <button
-            className="p-2 bd-highlight"
+            className=""
             name="fullBody"
             onClick={handleChange}
           >
             Full Body Special Package
           </button>
           <button
-            className="p-2 bd-highlight"
+            className=""
             name="mediBridge"
             onClick={handleChange}
           >
             Medi Bridge Special Packages
           </button>
           <button
-            className="p-2 bd-highlight"
+            className=""
             name="specialHealth"
             onClick={handleChange}
           >
             Special Health Packages
           </button>
         </div>
+        <div className="liOptions col-6">
         {swastBihar && <Card data={swastBiharCard} />}
         {fullBody && <Card data={fullBodyCard} />}
         {mediBridge && <Card data={mediBridgeCard} />}
         {specialHealth && <Card data={specialHealthCard} />}
+        </div>
       </div>
     </div>
   );

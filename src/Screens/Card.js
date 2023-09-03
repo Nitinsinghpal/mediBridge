@@ -1,33 +1,27 @@
-import React from 'react'
+import React from "react";
+import Liv from "../Images/liver.png";
+import "./Card.css";
 
 function Card(props) {
-    let data = props.data;
+  let data = props.data;
   return (
-    <div className=" d-flex flex-column bd-highlight col-6">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
+    <div className="container col-6">
+        <div class="fT">
+          <div class="col-2">
+            <img src={Liv} class="" alt="swastBiharCard" className="cradImg" />
+          </div>
+          <div class="col-4 htext">
+            <h5 class="">{data.name}</h5>
+            <p class="">{data.description}</p>
+              <div>
+                <span>{data.mrp}</span>
+                <br />
+                <span>{data.discountedPrice}</span>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">{data.name}</h5>
-                  <p class="card-text">
-                    {data.description}
-                  </p>
-                  <p class="card-text">
-                    <div>
-<span>{data.mrp}</span><br/>
-<span>{data.discountedPrice}</span>
-                    </div>
-                  
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-  )
+      </div>
+  );
 }
 
-export default Card
+export default Card;

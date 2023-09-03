@@ -9,7 +9,7 @@ import '../Screens/TestAndPackages.css'
 
 function Alphabet() {
   return (
-    <div className='d-flex justify-content-center'>
+    <div className='adjust'>
       <div className='imgFix'>
         <span>
           <img src={Fertility} alt="Fertility" title="Fertility"/>

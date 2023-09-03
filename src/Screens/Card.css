@@ -1,0 +1,12 @@
+.fT {
+    width: 40%;
+    display: flex;
+  }
+  .cradImg{background: red;
+    border: 1px solid;
+    border-radius: 56% 56% 0% 0%;
+    padding: 5px;
+  }
+  .htext{
+    margin-left: 3%;
+  }

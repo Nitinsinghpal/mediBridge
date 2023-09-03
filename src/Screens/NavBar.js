@@ -21,7 +21,7 @@ const NavBar = () => {
   }
   return (
       <nav className='navbar'>
-          <img src={Logo} alt="Medi Bridge" className="logo" />
+          <img src={Logo} alt="Medi Bridge" className="logo1" />
           <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => handleMobile(false)}>
               <Link to='/'><li>Home</li></Link>
               <Link to='/about'><li>About</li></Link>
