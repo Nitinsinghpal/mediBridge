@@ -7,10 +7,12 @@ import Conditions from "./Screens/Conditions";
 import Alphabet from "./Screens/Alphabet";
 import Footer from "./Screens/Footer";
 
+
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

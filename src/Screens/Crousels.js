@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Crousels.css";
-import Assured from '../Images/100%Assured_upscaled.png'
+// import Assured from '../Images/100%Assured_upscaled.png'
 
 //#region Style
 const slideStyles = {
@@ -68,7 +68,7 @@ const Crousels = () => {
       <span><img /></span>
       </div>
       <div className="col-6 fText">
-<span><img src={Assured}/></span>
+{/* <span><img src={Assured}/></span> */}
       <div className="">Hello how are you</div>
       </div>
       </div>

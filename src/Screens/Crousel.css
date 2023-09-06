@@ -1,0 +1,95 @@
+.crousel {
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  margin-bottom:15px ;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crousel-main {
+  height: 300px;
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  margin-top: 0px;
+}
+
+.left-slide {
+  margin: 40px;
+  color: grey;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+.right-slide {
+  margin: 40px;
+  color: grey;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+.crousel-image {
+  height: 100%;
+  width: 80%;
+  background-size: cover;
+}
+/* .crousel-image img{
+    height: 200px;
+    margin: 10px;
+} */
+.crousel-text {
+  color: white;
+  margin-left: 20px;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  background-color: transparent;
+  padding: 2px;
+}
+.crousel-text img {
+  height: 100px;
+  width: 150px;
+}
+.polygon {
+  clip-path: polygon(0 7%, 100% 0, 100% 94%, 0% 100%);
+  /* margin-left: 94px; */
+  margin: "37px 0px 0px 160px";
+  height: 95%;
+}
+
+.step-images {
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+  color: blue;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* padding: 20px; */
+}
+.step1 {
+  margin-right: 20%;
+}
+.step2 {
+  margin-right: 20%;
+}
+.step3{
+  margin-right: 20%;
+}
+.step4 {
+  margin-right: 20%;
+}
+.s-Q1{
+    font-size: 15px;
+    color: grey;
+}
+.crousel-para{
+    color: black;
+}

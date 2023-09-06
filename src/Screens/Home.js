@@ -5,6 +5,8 @@ import "./Home.css";
 import SpecializedHealthPackages from "../Screens/SpecializedHealthPackages";
 import About from "./About";
 import Steps from "./Steps";
+import Crousel from "./Crousel";
+import Crou from "./Crou/Crou";
 
 function Home() {
   const containerStyles = {
@@ -14,9 +16,11 @@ function Home() {
   };
   return (
     <div>
-      <div style={containerStyles}>
+      {/* <div style={containerStyles}>
         <Crousels />
-      </div>
+      </div> */}
+      {/* <Crousel/> */}
+      <Crou/>
       <TestAndPackages />
       <SpecializedHealthPackages />
       <About />
